@@ -1,0 +1,22 @@
+{
+  "name": "ionutbot",
+  "version": "1.0.0",
+  "description": "Sentinel of the FAU CS Hub",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --project tsconfig.json",
+    "start": "npm run build && npm run client:start",
+    "client:start": "node dist/index.js"
+  },
+  "author": "The Owls",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.11.25",
+    "typescript": "^5.4.2"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "dotenv": "^16.4.5"
+  }
+}
