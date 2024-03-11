@@ -1,10 +1,8 @@
 // Author(s) : Evan Henry
 
-// Created: 3 / 9 / 2024 
-// Updated: 3 / 9 / 2024 
+// Created: 3 / 9 / 2024
+// Updated: 3 / 9 / 2024
 
-// EventService 
+// EventService
 
-export class EventService {
-
-}
+export class EventService {}
