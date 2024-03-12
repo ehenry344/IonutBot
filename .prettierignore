@@ -1,0 +1,12 @@
+dist 
+node_modules 
+
+.env 
+
+package-lock.json
+package.json 
+
+README.md
+tsconfig.json 
+
+
