@@ -5,11 +5,9 @@
     "main": "dist/index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "beautify": "npx prettier --write src/**/*", 
+        "beautify": "npx prettier --write src/**/*",
         "build": "tsc --project tsconfig.json",
         "start": "npm run build && npm run client:start",
-
-        
         "client:start": "node dist/index.js"
     },
     "author": "The Owls",
@@ -20,6 +18,7 @@
         "typescript": "^5.4.2"
     },
     "dependencies": {
+        "axios": "^1.6.7",
         "discord.js": "^14.14.1",
         "dotenv": "^16.4.5"
     }
