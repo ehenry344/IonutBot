@@ -1,4 +1,5 @@
 import 'dotenv/config'
+// prettier-ignore 
 import {
     Client,
     GatewayIntentBits,
